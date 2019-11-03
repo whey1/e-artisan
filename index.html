@@ -1,0 +1,2371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>E-Mech</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="asset/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome CSS -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    
+    
+    <!-- Animate CSS -->
+    <link href="css/animate.css" rel="stylesheet" >
+    
+    <!-- Owl-Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.css" >
+    <link rel="stylesheet" href="css/owl.theme.css" >
+    <link rel="stylesheet" href="css/owl.transitions.css" >
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    
+    <!-- Colors CSS -->
+    <link rel="stylesheet" type="text/css" href="css/color/green.css">
+    
+    
+    
+    <!-- Colors CSS -->
+    <link rel="stylesheet" type="text/css" href="css/color/green.css" title="green">
+    <link rel="stylesheet" type="text/css" href="css/color/light-red.css" title="light-red">
+    <link rel="stylesheet" type="text/css" href="css/color/blue.css" title="blue">
+    <link rel="stylesheet" type="text/css" href="css/color/light-blue.css" title="light-blue">
+    <link rel="stylesheet" type="text/css" href="css/color/yellow.css" title="yellow">
+    <link rel="stylesheet" type="text/css" href="css/color/light-green.css" title="light-green">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    
+    
+    <!-- Modernizer js -->
+    <script src="js/modernizr.custom.js"></script>
+
+    
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body class="index">
+    
+    
+    <!-- Styleswitcher
+================================================== -->
+        <div class="colors-switcher">
+            <a id="show-panel" class="hide-panel"><i class="fa fa-tint"></i></a>        
+                <ul class="colors-list">
+                    <li><a title="Light Red" onClick="setActiveStyleSheet('light-red'); return false;" class="light-red"></a></li>
+                    <li><a title="Blue" class="blue" onClick="setActiveStyleSheet('blue'); return false;"></a></li>
+                    <li class="no-margin"><a title="Light Blue" onClick="setActiveStyleSheet('light-blue'); return false;" class="light-blue"></a></li>
+                    <li><a title="Green" class="green" onClick="setActiveStyleSheet('green'); return false;"></a></li>
+                    
+                    <li class="no-margin"><a title="light-green" class="light-green" onClick="setActiveStyleSheet('light-green'); return false;"></a></li>
+                    <li><a title="Yellow" class="yellow" onClick="setActiveStyleSheet('yellow'); return false;"></a></li>
+                    
+                </ul>
+
+        </div>  
+<!-- Styleswitcher End
+================================================== -->
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" style="margin-top: -50px">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="images/logos/emech%20logo.png" style="width: 70px; height: 40px; border-radius: 20px"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+<!--
+                    <li>
+                        <a class="page-scroll" href="#">Home</a>
+                    </li>
+-->
+                    <li>
+                        <a class="page-scroll" href="#how">How it works</a>
+                    </li>
+                     
+                     <li>
+                        <a class="page-scroll" href="#artisan">get an artisan </a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#FAQ">Faq</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about-us">About us</a>
+                    </li>
+                   
+                   
+                    <li>
+                        <a class="page-scroll" href="#team">our Team </a>
+                    </li>
+<!--
+                    
+-->
+                    
+<!--
+                    <li>
+                        <a class="page-scroll" href="#testimonial">Testimonials</a>
+                    </li>
+-->
+<!--
+                    <li>
+                        <a class="page-scroll" href="#partner">Partner</a>
+                    </li>
+-->                  <li>
+                        <a data-toggle="modal" href="index.html?#join">Sign-Up</a>
+                    </li>
+                    
+                    <li>
+                        <a data-toggle="modal" href="index.html?#account" >Sign-In</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    
+    
+    
+    <!-- Start Home Page Slider -->
+    <section id="page-top">
+        <!-- Carousel -->
+        <div id="main-slide" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+<!--
+            <ol class="carousel-indicators">
+                <li data-target="#main-slide" data-slide-to="0" class="active"></li>
+                <li data-target="#main-slide" data-slide-to="1"></li>
+                <li data-target="#main-slide" data-slide-to="2"></li>
+            </ol>
+-->
+            <!--/ Indicators end-->
+
+            <!-- Carousel inner -->
+            
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img class="img-responsive" src="images/male mech1.jpg" alt="slider" >
+                    <div class="slider-content">
+                        <div class="col-md- text-center">
+                            
+                            <form>
+                            <div class="form-row" style="padding: 0px 200px 0px">
+                                        <div class="form-group col-lg-6">
+                                        
+                                          <input type="text" class="form-control" id="inputEmail4" placeholder="I'm looking for..." style="height: 70px;font-size: 26px">
+                                        </div>
+                                        <div class="form-group col-lg-6">
+                                       
+                                          <input type="text" class="form-control" id="inputlocation" placeholder="At.." style="height: 70px; font-size: 26px">
+                                          
+                                        </div>
+                                        
+                                        <div class="form-group col-lg-12">
+                                             <span type="submit" class="btn btn-primary" style="height: 70px; width:30%; text-align: center; font-display: block;font-size:35px; border-radius: 20px;color: aliceblue ">SEARCH </span>
+                                        </div>
+                                       
+                                         
+                                        
+                            </div>
+                                
+                            </form>                         
+<!--
+
+                            <form>
+                                    <div class="form-row"  ">
+                                        
+                                        <div class="col">
+                                          <input type="text" class="form-control" placeholder="I'm Looking for..."  ">
+                                            <input type="text" class="form-control" placeholder="I'm Looking for..." style="height: 50px; ">
+                                        </div>
+                                         
+                                      </div>
+                            
+                            
+-->
+                            
+                        </div>
+                    </div>
+                </div>
+                <!--/ Carousel item end -->
+                
+          <!--/ Carousel item end -->
+            </div>
+            
+
+        </div>
+        <!-- /carousel -->
+    </section>
+    <!-- End Home Page Slider -->
+<!--    Join us-->
+   
+   
+<div class="modal fade" id="join" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+  <div class="modal-dialog modal-lg" role="document" style="width: 80%">
+    <div class="modal-content">
+      <div class="modal-header">
+<!--        <h1 class="modal-title" id="exampleModalLabel" style="text-align: center">Account Details</h1>-->
+<!--
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+-->
+      </div>
+      <div class="modal-body">
+          
+          
+          
+          
+          
+
+  <h1></h1>
+  <div class="row" >
+      
+    <div class="col-lg-6" >
+       <form>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-6">
+          <div class="card-body">
+            <h1 class="card-title text-center" style="font-display: block; font-size: 30px; color: green; font-weight: 600">Join Us as an Agent</h1>
+            <form class="form-signin">
+            <div class="form-row">
+              <div class="form-label-group col-lg-6">
+                <input type="text" id="inputfname" class="form-control" placeholder="First Name" style="height:40px; font-display: block; font-family: fantasy; font-size: 14px; color: black; text-align: center" required autofocus><br>
+                
+                <input type="text" id="inputlName" class="form-control" placeholder="Last Name" style="height:40px; font-display: block; font-family: fantasy; font-size: 14px; color: black; text-align: center" required>
+
+              
+              </div>
+              
+<!--          Passport-->
+              <div class="form-label-group col-lg-6">
+                <img id='img-upload' height="125px">
+                
+                 <div class="form-group">
+<!--        <label>Upload Passport</label>-->
+        
+        
+    </div>
+                
+                
+<!--                <input type="text" id="inputjob" class="form-control" placeholder="Upload Passport Here" style="height:120px; font-display: block;  font-size: 14px; color: black; text-align: center;background-color:aquamarine" required>-->
+             
+               
+                 </div>
+                 
+                 
+                </div>
+                
+                
+                 <div class="form-row">
+                 
+                 
+              <div class="form-label-group col-lg-12">
+                <div class="input-group">
+            <span class="input-group-btn">
+                <span class="btn btn-default btn-file">
+                    Browse… <input type="file" id="imgInp">
+                </span>
+            </span>
+            <input type="text" class="form-control" readonly>
+        </div>
+              </div>
+               </div>
+               
+<!--Passport Ends Here-->
+                
+                <div class="form-row">
+              <div class="form-label-group col-lg-12">
+                <input type="tel" id="inputPhoneno" class="form-control" placeholder="Phone Number" style="height:40px; font-display: block; font-family: fantasy; font-size: 14px; color: black; text-align: center" required>
+               
+              </div>
+               </div>
+            <div class="form-row">
+             
+             <div class="form-label-group col-lg-6">
+                <input type="email" id="inputemail" class="form-control" placeholder="Email" style="height:40px; font-display: block; font-family: fantasy; font-size: 14px; color: black; text-align: center" required>
+               
+              </div>
+             
+              <div class="form-label-group col-lg-6">
+                <input type="tel" id="inputpassword" class="form-control" placeholder="Password" style="height:40px; font-display: block; font-family: fantasy; font-size: 14px; color: black; text-align: center" required>
+               
+              </div>
+              
+               
+           
+              
+              </div>
+              
+              
+              
+               
+            <div class="form-row">
+              <div class="form-label-group col-lg-6">
+                <input type="text" id="inputlanguage" class="form-control" placeholder="Language" style="height:40px; font-display: block; font-family: fantasy; font-size: 14px; color: black; text-align: center" required>
+               
+              </div>
+              
+                
+            
+              <div class="form-label-group col-lg-6">
+                <input type="text" id="inputlocation" class="form-control" placeholder="Location" style="height:40px; font-display: block; font-family: fantasy; font-size: 14px; color: black; text-align: center" required>
+               
+              </div>
+              
+               <div class="form-row">
+               <div class="form-label-group col-lg-12">
+               
+               <input type="text" id="inputhAddress" class="form-control" placeholder="Permanent Home Address" style="height:40px; font-display: block; font-family: fantasy; font-size: 14px; color: black; text-align: center" required><br>
+               
+               <input type="text" id="inputrAddress" class="form-control" placeholder="Residential Address" style="height:40px; font-display: block; font-family: fantasy; font-size: 14px; color: black; text-align: center" required>
+               
+                   </div>
+                </div>
+              
+              
+              
+               </div>
+               <div class="form-row">
+               <div class="form-label-group col-lg-12">
+              <label for="eq">Educational Qualification</label>
+           <select id="join" style="height:40px; font-display: block; font-family: fantasy; font-size: 14px; color: black; text-align: center;width: 100%;padding: 0 20px 0">
+           <option>SSCE</option>
+               <option>B.SC</option>
+               <option>M.SC.</option>
+                </select>
+               
+              <br> <br>
+              <label for="moi">Mode of Identification</label>
+           <select id="join" style="height:40px; font-display: block; font-family: fantasy; font-size: 14px; color: black; text-align: center;width: 100%;padding: 0 20px 0">
+           <option>Voters Card</option>
+               <option>National I.D</option>
+               <option>Drivers License</option>
+                </select>
+                   </div>
+                </div>
+<br><br>
+            
+             
+              
+              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Submit</button>
+              <hr class="my-4">
+<!--
+              <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Sign in with Google</button>
+              <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign in with Facebook</button>
+-->
+               
+                
+               
+                
+               
+               
+                
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+        
+    </div>
+      
+<!--      Join As Agent Liz Start here-->
+    
+<div class="col-lg-5">
+<form>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-6">
+          <div class="card-body">
+            <h1 class="card-title text-center" style="font-display: block; font-size: 30px; color: green; font-weight: 600">Join Us as an Artisan</h1>
+            <form class="form-signin">
+            <div class="form-row">
+              <div class="form-label-group col-lg-6">
+                <input type="text" id="inputfname" class="form-control" placeholder="First Name" style="height:40px; font-display: block; font-family: fantasy; font-size: 14px; color: black; text-align: center" required autofocus><br>
+                
+                <input type="text" id="inputlName" class="form-control" placeholder="Last Name" style="height:40px; font-display: block; font-family: fantasy; font-size: 14px; color: black; text-align: center" required>
+
+              
+              </div>
+              
+<!--          Passport-->
+              <div class="form-label-group col-lg-6">
+                <img id='img-upload1' height="125px">
+                
+                 <div class="form-group">
+<!--        <label>Upload Passport</label>-->
+        
+        
+    </div>
+                
+                
+<!--                <input type="text" id="inputjob" class="form-control" placeholder="Upload Passport Here" style="height:120px; font-display: block;  font-size: 14px; color: black; text-align: center;background-color:aquamarine" required>-->
+             
+               
+                 </div>
+                 
+                 
+                </div>
+                
+                
+                 <div class="form-row">
+                 
+                 
+              <div class="form-label-group col-lg-12">
+                <div class="input-group">
+            <span class="input-group-btn">
+                <span class="btn btn-default btn-file">
+                    Browse… <input type="file" id="imgInp1">
+                </span>
+            </span>
+            <input type="text" class="form-control" readonly>
+        </div>
+              </div>
+               </div>
+                
+                <div class="form-row">
+              <div class="form-label-group col-lg-12">
+                <input type="tel" id="inputPhoneno" class="form-control" placeholder="Phone Number" style="height:40px; font-display: block; font-family: fantasy; font-size: 14px; color: black; text-align: center" required><br>
+                
+                <input type="tel" id="inputJobTitle" class="form-control" placeholder="Job Title" style="height:40px; font-display: block; font-family: fantasy; font-size: 14px; color: black; text-align: center" required>
+               
+              </div>
+               </div>
+            <div class="form-row">
+             
+             <div class="form-label-group col-lg-6">
+                <input type="email" id="inputemail" class="form-control" placeholder="Email" style="height:40px; font-display: block; font-family: fantasy; font-size: 14px; color: black; text-align: center" >
+               
+              </div>
+             
+              <div class="form-label-group col-lg-6">
+                <input type="tel" id="inputpassword" class="form-control" placeholder="Password" style="height:40px; font-display: block; font-family: fantasy; font-size: 14px; color: black; text-align: center" required>
+               
+              </div>
+              
+               
+           
+              
+              </div>
+              
+              
+              
+               
+            <div class="form-row">
+              <div class="form-label-group col-lg-6">
+                <input type="text" id="inputlanguage" class="form-control" placeholder="Language" style="height:40px; font-display: block; font-family: fantasy; font-size: 14px; color: black; text-align: center" required>
+               
+              </div>
+              
+                
+            
+              <div class="form-label-group col-lg-6">
+                <input type="text" id="inputlocation" class="form-control" placeholder="Location" style="height:40px; font-display: block; font-family: fantasy; font-size: 14px; color: black; text-align: center" required>
+               
+              </div>
+              
+               <div class="form-row">
+               <div class="form-label-group col-lg-12">
+               
+               <input type="text" id="inputhAddress" class="form-control" placeholder="Permanent Home Address" style="height:40px; font-display: block; font-family: fantasy; font-size: 14px; color: black; text-align: center" required><br>
+               
+               <input type="text" id="inputrAddress" class="form-control" placeholder="Shop Address" style="height:40px; font-display: block; font-family: fantasy; font-size: 14px; color: black; text-align: center" required>
+               
+                   </div>
+                </div>
+              
+              
+              
+               </div>
+               <div class="form-row">
+               <div class="form-label-group col-lg-12">
+              
+               
+             
+              <label for="moi">Mode of Identification</label>
+           <select id="join" style="height:40px; font-display: block; font-family: fantasy; font-size: 14px; color: black; text-align: center;width: 100%;padding: 0 20px 0">
+           <option>Voters Card</option>
+               <option>National I.D</option>
+               <option>Drivers License</option>
+                </select>
+                   </div>
+                </div>
+<br><br>
+           
+             <div class="form-row">
+             <div class="form-label-group col-lg-12">
+              <label for="pimg">Previous work </label>
+                 </div>
+                </div>
+                <div class="form-row">
+                 <div class="form-label-group col-lg-12">
+            <fieldset class="form-group">
+        <a href="javascript:void(0)" onclick="$('#pro-image').click()">Upload Image</a>
+        <input type="file" id="pro-image" name="pro-image" style="display: none;" class="form-control" multiple>
+    </fieldset>
+    <div class="preview-images-zone" >
+        
+    </div>
+               
+                    </div>         
+                
+                </div>
+              
+              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Submit</button>
+              <hr class="my-4">
+<!--
+              <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Sign in with Google</button>
+              <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign in with Facebook</button>
+-->
+               
+                
+               
+                
+               
+               
+                
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+    </div>
+<!--    Ends here-->
+
+</div> 
+          
+          
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+    
+   
+<!--   Join Us-->
+    
+    
+<!--Account Modal start here-->
+   
+    
+<div class="modal fade" id="account" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+  <div class="modal-dialog modal-lg" role="document" style="width: 80%">
+    <div class="modal-content">
+      <div class="modal-header">
+<!--        <h1 class="modal-title" id="exampleModalLabel" style="text-align: center">Account Details</h1>-->
+<!--
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+-->
+      </div>
+      <div class="modal-body">
+          
+
+  <h1></h1>
+  <div class="row" >
+      
+    <div class="col-lg-6" >
+       <form>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-5">
+          <div class="card-body">
+            <h1 class="card-title text-center">Sign In As Agent</h1>
+            <form class="form-signin">
+              <div class="form-label-group">
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" style="height:40px; font-display: block; font-family: fantasy; font-size: 14px; color: black; text-align: center" required autofocus>
+              
+              </div>
+<br>
+              <div class="form-label-group">
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" style="height:40px; font-display: block; font-family: fantasy; font-size: 14px; color: black; text-align: center" required>
+               
+              </div>
+
+              <div class="custom-control custom-checkbox mb-3">
+                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                <label class="custom-control-label" for="customCheck1">Remember password</label>
+              </div>
+              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign in</button>
+              <hr class="my-4">
+             <button type="button" class="btn " name="Request" data-dismiss="modal"><a data-toggle="modal" href="index.html?#join">Sign Up</a></button>
+<!--              <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign in with Facebook</button>-->
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+        
+    </div>
+      
+      
+    
+<div class="col-lg-5">
+<form>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-6">
+          <div class="card-body">
+            <h1 class="card-title text-center">Sign In As Client</h1>
+            <form class="form-signin">
+              <div class="form-label-group">
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" style="height:40px; font-display: block; font-family: fantasy; font-size: 14px; color: black; text-align: center" required autofocus>
+              
+              </div>
+<br>
+              <div class="form-label-group">
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" style="height:40px; font-display: block; font-family: fantasy; font-size: 14px; color: black; text-align: center" required>
+               
+              </div>
+
+              <div class="custom-control custom-checkbox mb-3">
+                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                <label class="custom-control-label" for="customCheck1">Remember password</label>
+              </div>
+              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign in</button>
+              <hr class="my-4">
+              <button type="button" class="btn " name="Request" data-dismiss="modal"><a data-toggle="modal" href="index.html?#join">Sign Up</a></button>
+<!--              <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign in with Facebook</button>-->
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+    </div>
+
+</div> 
+          
+          
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+<!--        <button type="button" class="btn " name="Request" data-dismiss="modal"><a data-toggle="modal" href="index.html?#join">Request</a></button>-->
+      </div>
+    </div>
+  </div>
+</div>
+    
+  
+<!--    Account modal ends here-->
+    
+    <!-- Start Feature Section -->
+        <!-- Start Feature Section -->
+        <section id="artisan" class="feature-section">
+                                    <hr>
+            <h1 style="text-align: center"> OUR EXPERIENCED ARTISANS</h1>
+            <hr>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="feature">
+                           <a data-toggle="modal" href="index.html?#profile" > <img src="images/imgx5.jpg" class="img-responsive" style="border-radius: 200px; border: strong"></a>
+                            <div class="feature-content">
+                                <h3>Mechanic</h3>
+                              <h4> <a data-toggle="modal" href="index.html?#profile" >Request</a> </h4>
+                            </div>
+                        </div>
+                    </div><!-- /.col-md-3 -->
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="feature">
+                            <a data-toggle="modal" href="index.html?#profile1" > <img src="images/imgx6.jpg" class="img-responsive" style="border-radius: 200px; border: strong"></a>
+                            <div class="feature-content">
+                                <h3>Auto-Electrician</h3>
+                                <h4> <a data-toggle="modal" href="index.html?#profile1" >Request</a> </h4>
+                            </div>
+                        </div>
+                    </div><!-- /.col-md-3 -->
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="feature">
+                            <a data-toggle="modal" href="index.html?#profile2" ><img src="images/imgpb02.jpg" class="img-responsive" style="border-radius: 200px; border: strong"></a>
+                            <div class="feature-content">
+                                <h3>Panel Beater</h3>
+                                <h4> <a data-toggle="modal" href="index.html?#profile2" >Request</a> </h4>
+                            </div>
+                        </div>
+                    </div><!-- /.col-md-3 -->
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="feature">
+                            <a data-toggle="modal" href="index.html?#profile3" >  <img src="images/imgvz5.jpg" class="img-responsive" style="border-radius: 200px; border: strong"></a>
+
+                            <div class="feature-content">
+                                <h3>Vulcanizer</h3>
+                                <h4> <a data-toggle="modal" href="index.html?#profile3" >Request</a> </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- /.row -->
+            
+            </div><!-- /.container -->
+        </section>
+        <!-- End Feature Section -->
+    
+    
+    
+    
+<!--    Artisans Profile Starts Here-->
+ 
+    
+       
+<!--    Artisans Profile Ends Here-->   
+    
+     <div class="modal fade" id="profile" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+  <div class="modal-dialog modal-lg" role="document" style="width: 80%">
+    <div class="modal-content">
+      <div class="modal-header">
+
+      </div>
+
+      <div class="modal-body">
+          <div>
+<h1 style="text-align: center">Mechanic</h1>
+              <div class="card card-signin my-6">
+                  <div class="card-body">
+              <div class="row">
+    <div class="col-lg-6" ><!--col-lg 6 starts-->   
+  <div class="container">
+   <h3>Profile</h3><br>
+   <h4>Name: Akin John </h4><br>
+   <h4>Location: Lekki-Lagos</h4><br>
+   <h4>Rating: </h4><div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="star-rating">
+        <span class="fa fa-star-o" data-rating="1"></span>
+        <span class="fa fa-star-o" data-rating="2"></span>
+        <span class="fa fa-star-o" data-rating="3"></span>
+        <span class="fa fa-star-o" data-rating="4"></span>
+        <span class="fa fa-star-o" data-rating="5"></span>
+        <input type="hidden" name="whatever1" class="rating-value" value="2.56">
+      </div>
+    </div>
+  </div>
+</div>  <br>
+   <h4>Comment:</h4><br>    
+    </div>
+                  </div>
+    <div class="col-lg-6" >  
+  <div class="container">
+   <h3>Previous Work</h3>
+   <div class="row" >         
+<div class="col-lg-6" >
+   <img src="images/imgx9.jpg" class="img-responsive" width=30% style="border-radius: 200px; border: strong"><br>
+      <img src="images/img13.jpg" class="img-responsive" width=30% style="border-radius: 200px; border: strong"><br>
+        
+            <button type="submit" class="btn btn-primary" data-dismiss="modal"><a data-toggle="modal" href="index.html?#account" >Request</a></button>      
+</div>  
+  </div>
+  </div>
+    </div>  
+        </div>
+            </div>
+              </div>
+            <div class="card card-signin my-6">
+                  <div class="card-body">
+              <div class="row">
+    <div class="col-lg-6" ><!--col-lg 6 starts-->   
+  <div class="container">
+   <h3>Profile</h3><br>
+   <h4>Name: Kadeba Olajide</h4><br>
+   <h4>Location: Ojota-Lagos</h4><br>
+   <h4>Rating: </h4><div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="star-rating">
+        <span class="fa fa-star-o" data-rating="1"></span>
+        <span class="fa fa-star-o" data-rating="2"></span>
+        <span class="fa fa-star-o" data-rating="3"></span>
+        <span class="fa fa-star-o" data-rating="4"></span>
+        <span class="fa fa-star-o" data-rating="5"></span>
+        <input type="hidden" name="whatever1" class="rating-value" value="2.56">
+      </div>
+    </div>
+  </div>
+</div>  <br>
+   <h4>Comment:</h4><br>    
+    </div>
+                  </div>
+    <div class="col-lg-6" >   
+  <div class="container">
+   <h3>Previous Work</h3>
+   <div class="row" >         
+<div class="col-lg-6" >
+   <img src="images/img14.jpg" class="img-responsive" width=30% style="border-radius: 200px; border: strong"><br>
+      <img src="images/img16.jpg" class="img-responsive" width=30% style="border-radius: 200px; border: strong"><br>
+         <button type="submit" class="btn btn-primary" data-dismiss="modal"><a data-toggle="modal" href="index.html?#account" >Request</a></button>       
+</div>  
+  </div>
+  </div>
+    </div>  
+
+        </div>
+            </div>
+              </div>
+          </div>
+        </div>        
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+   
+   
+  <div class="modal fade" id="profile1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+  <div class="modal-dialog modal-lg" role="document" style="width: 80%">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+          <div>              
+<h1 style="text-align: center">Auto-Electrician</h1>
+           <div class="card card-signin my-6">
+                  <div class="card-body">
+              <div class="row" >
+    <div class="col-lg-6" >
+  <div class="container">
+   <h3>Profile</h3><br>
+   <h4>Name: Olufemi Taiwo </h4><br>
+   <h4>Location: Costain-Lagos</h4><br>
+   <h4>Rating: </h4><div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="star-rating">
+        <span class="fa fa-star-o" data-rating="1"></span>
+        <span class="fa fa-star-o" data-rating="2"></span>
+        <span class="fa fa-star-o" data-rating="3"></span>
+        <span class="fa fa-star-o" data-rating="4"></span>
+        <span class="fa fa-star-o" data-rating="5"></span>
+        <input type="hidden" name="whatever1" class="rating-value" value="2.56">
+      </div>
+    </div>
+  </div>
+</div>  <br>
+   <h4>Comment:</h4><br>
+  </div>    
+    </div>
+    <div class="col-lg-6" > 
+  <div class="container">
+   <h3>Previous Work</h3>
+        </div>
+        </div>
+   <div class="row">         
+<div class="col-lg-6" >
+   <img src="images/imgae5.jpg" class="img-responsive" width=35% style="border-radius: 200px; border: strong"><br>
+      <img src="images/imgae02.jpg" class="img-responsive" width=30% style="border-radius: 200px; border: strong"><br>
+        <button type="submit" class="btn btn-primary" data-dismiss="modal"><a data-toggle="modal" href="index.html?#account" >Request</a></button>          
+</div>
+     </div>
+     </div>
+    </div>
+</div> 
+ <div class="card card-signin my-6">
+                  <div class="card-body">
+              <div class="row" >
+    <div class="col-lg-6" >
+  <div class="container">
+   <h3>Profile</h3><br>
+   <h4>Name: Joel Metthew </h4><br>
+   <h4>Location: Ikeja-Lagos</h4><br>
+   <h4>Rating: </h4><div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="star-rating">
+        <span class="fa fa-star-o" data-rating="1"></span>
+        <span class="fa fa-star-o" data-rating="2"></span>
+        <span class="fa fa-star-o" data-rating="3"></span>
+        <span class="fa fa-star-o" data-rating="4"></span>
+        <span class="fa fa-star-o" data-rating="5"></span>
+        <input type="hidden" name="whatever1" class="rating-value" value="2.56">
+      </div>
+    </div>
+  </div>
+</div>  <br>
+   <h4>Comment:</h4><br>
+  </div>    
+    </div>
+    <div class="col-lg-6" >  
+  <div class="container">
+   <h3>Previous Work</h3>
+        </div>
+        </div>
+   <div class="row">         
+<div class="col-lg-6" >
+   <img src="images/imgel10.jpg" class="img-responsive" width=35% style="border-radius: 200px; border: strong"><br>
+      <img src="images/imgel11.jpg" class="img-responsive" width=30% style="border-radius: 200px; border: strong"><br>
+        <button type="submit" class="btn btn-primary" data-dismiss="modal"><a data-toggle="modal" href="index.html?#account" >Request</a></button>         
+</div>
+     </div>
+     </div>
+    </div>
+</div>
+    </div>
+    </div>   
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>   
+    
+      
+    <div class="modal fade" id="profile2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+  <div class="modal-dialog modal-lg" role="document" style="width: 80%">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+          <div>
+<h1 style="text-align: center">Panel Beater</h1>
+          <div class="card card-signin my-6">
+                  <div class="card-body">
+              <div class="row" >
+    <div class="col-lg-6" >
+  <div class="container">
+   <h3>Profile</h3><br>
+   <h4>Name: Samuel Kunle   </h4><br>
+   <h4>Location: Mile2-Lagos</h4><br>
+   <h4>Rating: </h4><div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="star-rating">
+        <span class="fa fa-star-o" data-rating="1"></span>
+        <span class="fa fa-star-o" data-rating="2"></span>
+        <span class="fa fa-star-o" data-rating="3"></span>
+        <span class="fa fa-star-o" data-rating="4"></span>
+        <span class="fa fa-star-o" data-rating="5"></span>
+        <input type="hidden" name="whatever1" class="rating-value" value="2.56">
+      </div>
+    </div>
+  </div>
+</div>  <br>
+   <h4>Comment:</h4><br>
+  </div>
+    </div>            
+    <div class="col-lg-6" >
+  <div class="container">
+   <h3>Previous Work</h3>
+   <div class="row" >         
+<div class="col-lg-6" >
+   <img src="images/imgpb01.jpg" class="img-responsive" width=30% style="border-radius: 200px; border: strong"><br>
+      <img src="images/imgpb02.jpg" class="img-responsive" width=30% style="border-radius: 200px; border: strong"><br>
+         <button type="submit" class="btn btn-primary" data-dismiss="modal"><a data-toggle="modal" href="index.html?#account" >Request</a></button>         
+</div>
+      </div>
+        </div>
+        </div>
+        </div> 
+        </div>
+        </div>
+     <div class="card card-signin my-6">
+                  <div class="card-body">
+              <div class="row" >
+    <div class="col-lg-6" >
+  <div class="container">
+   <h3>Profile</h3><br>
+   <h4>Name: Olasoji Oni  </h4><br>
+   <h4>Location: Ikoyi-Lagos</h4><br>
+   <h4>Rating: </h4><div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="star-rating">
+        <span class="fa fa-star-o" data-rating="1"></span>
+        <span class="fa fa-star-o" data-rating="2"></span>
+        <span class="fa fa-star-o" data-rating="3"></span>
+        <span class="fa fa-star-o" data-rating="4"></span>
+        <span class="fa fa-star-o" data-rating="5"></span>
+        <input type="hidden" name="whatever1" class="rating-value" value="2.56">
+      </div>
+    </div>
+  </div>
+</div>  <br>
+   <h4>Comment:</h4><br>
+  </div>
+    </div>            
+    <div class="col-lg-6" >
+  <div class="container">
+   <h3>Previous Work</h3>
+   <div class="row" >         
+<div class="col-lg-6" >
+   <img src="images/imgpb06.jpg" class="img-responsive" width=30% style="border-radius: 200px; border: strong"><br>
+      <img src="images/imgpb07.jpg" class="img-responsive" width=30% style="border-radius: 200px; border: strong"><br>
+        <button type="submit" class="btn btn-primary" data-dismiss="modal"><a data-toggle="modal" href="index.html?#account" >Request</a></button>          
+</div>
+      </div>
+        </div>
+        </div>
+        </div> 
+        </div>
+        </div>
+        </div>
+        </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
+      </div>
+    </div>
+  </div>
+</div>   
+  
+  
+  
+  <div class="modal fade" id="profile3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+  <div class="modal-dialog modal-lg" role="document" style="width: 80%">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+           <div>
+    
+<!--    vulcanizer start here-->
+               
+<h1 style="text-align: center">Vulcanizer</h1>
+          <div class="card card-signin my-6">
+            <div class="card-body">
+              <div class="row">
+    <div class="col-lg-6" > 
+  <div class="container">
+   <h3>Profile</h3><br>
+   <h4>Name: Kolawole James </h4><br>
+   <h4>Location: Ikeja-Lagos</h4><br>
+   <h4>Rating: </h4><div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="star-rating">
+        <span class="fa fa-star-o" data-rating="1"></span>
+        <span class="fa fa-star-o" data-rating="2"></span>
+        <span class="fa fa-star-o" data-rating="3"></span>
+        <span class="fa fa-star-o" data-rating="4"></span>
+        <span class="fa fa-star-o" data-rating="5"></span>
+        <input type="hidden" name="whatever1" class="rating-value" value="2.56">
+      </div>
+    </div>
+  </div>
+</div>  <br>
+   <h4>Comment:</h4><br>
+  </div>    
+    </div>
+
+    <div class="col-lg-6" >
+       
+  <div class="container">
+   <h3>Previous Work</h3>
+   
+   <div class="row" >
+             
+<div class="col-lg-6" >
+   <img src="images/imgvz02.jpg" class="img-responsive" width=30% style="border-radius: 200px; border: strong"><br>
+      <img src="images/imgvz03.jpg" class="img-responsive" width=30% style="border-radius: 200px; border: strong"><br>
+         <button type="submit" class="btn btn-primary" data-dismiss="modal"><a data-toggle="modal" href="index.html?#account" >Request</a></button> 
+    </div>
+  </div>
+  </div>
+    </div>
+        </div> 
+        </div>
+         </div>
+          <div class="card card-signin my-6">
+            <div class="card-body">
+              <div class="row">
+    <div class="col-lg-6" >   
+  <div class="container">
+   <h3>Profile</h3><br>
+   <h4>Name: Micheal Adebayo </h4><br>
+   <h4>Location: Ikeja-Lagos</h4><br>
+   <h4>Rating: </h4><div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="star-rating">
+        <span class="fa fa-star-o" data-rating="1"></span>
+        <span class="fa fa-star-o" data-rating="2"></span>
+        <span class="fa fa-star-o" data-rating="3"></span>
+        <span class="fa fa-star-o" data-rating="4"></span>
+        <span class="fa fa-star-o" data-rating="5"></span>
+        <input type="hidden" name="whatever1" class="rating-value" value="2.56">
+      </div>
+    </div>
+  </div>
+</div>  <br>
+   <h4>Comment:</h4><br>
+  </div>    
+    </div>
+
+    <div class="col-lg-6" >
+       
+  <div class="container">
+   <h3>Previous Work</h3>
+   
+   <div class="row" >
+             
+<div class="col-lg-6" >
+   <img src="images/imgvz4.jpg" class="img-responsive" width=30% style="border-radius: 200px; border: strong"><br>
+      <img src="images/imgvz6.jpg" class="img-responsive" width=30% style="border-radius: 200px; border: strong"><br>
+         <button type="submit" class="btn btn-primary" data-dismiss="modal"><a data-toggle="modal" href="index.html?#account" >Request</a></button> 
+    </div>
+  </div>
+  </div>
+    </div>
+        </div> 
+        </div>
+         </div>
+          </div>
+        </div>
+        
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>  
+       
+   
+   
+    
+    
+    
+    
+    <!-- Start Call to Action Section -->
+<!--
+    <section class="call-to-action">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Libero tempore soluta nobis est eligendi<br> optio cumque nihil impedit minus id quod maxime <br>placeat facere possimus, omnis voluptas assumenda est</h1>
+                    <button type="submit" class="btn btn-primary">Buy This Template</button>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+    <!-- End Call to Action Section -->
+    
+    
+    
+    <!-- Start How it works Section -->
+        <section id="how" class="portfolio-section-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title text-center">
+                            <h3>HOW IT WORKS</h3>
+                            <p>How we plan to meet your demands and grant you excellence service.<br>
+                            It should also be noted that our artisans are well oriented and trained so be rest assured of excellent service</p>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2">
+                        
+                     
+                    </div>
+                    <div class="col-lg-8">
+                        
+                        <ol>
+                        <li><strong>Step 1</strong> </li>
+                        <p >The Admin manager receives the request from the client and calls within the range of 30-60 seconds.
+                        Whereby he/she inquires the following questions from our client<br>
+                       <p> 1.Where exactly are you?</p>
+                      <p>2.What exactly is wrong with the vehicle(The nature of the job needing attention maybe it's mechanical or electrical.)</p>  
+                        <p>3.How do you intend to pay cash, POS or transfer (Medium of payment.)</p> 
+                        
+                        </ol>
+                        <ol>
+                        <li><strong>Step 2</strong> </li>
+                        <p >Immediately the towing vehicle picks up the vehicle(if the vehicle cant move), but if otherwise the vehicle is taken to our experts workshop. 
+                        Then the admin manager receives the details and  sends the task to the auto technician for the quotation on the job to be done.
+                        he then communicates to the client on the cost and seek approval for the Auto technician to move immediately to the workshop</p>
+                        
+                        </ol>
+                        <ol>
+                        <li><strong>Step 3</strong> </li>
+                        <p >When the auto experts gets to the site, he confirms to the admin that the he has begun the service, and the client is immediately contacted on the progrss of the vehicle.</p>
+                        
+                        </ol>
+                        <ol>
+                        <li><strong>Step 4</strong><p>When the vehicle is done and tested at the pickup center, and the clent is satisfied, he/she pays via the nmeans of payment decided earlier on.</p> </li>
+                         </ol>
+                         <ol>
+                        <li>
+                        <strong>Step5</strong> <p>After a week the client is contacted on the workdone on his/her vehicle if it still has such problem he or she is asked to come back for a redo of the service but if its in a good state the client is asked to give the auto-technician a 5-star rating, and recommed the website to friends and family.(It should be noted that this is  exclusively to the discretion of the client.) </p>
+                                
+                                
+                                       
+                            </li>
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                         </ol>
+                         <br>
+                         <div>
+                             <video src="vid/2.mp4" controls style="width: 100%"></video> <br>
+                             
+                         </div>
+                    </div>
+                    <div class="col-lg-2">
+                        
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        <section id="FAQ" class="portfolio-section-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title text-center">
+                            <h3>FREQUENTLY ASKED QUESTIONS</h3>
+                            
+                        </div>                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2">
+                        
+                     
+                    </div>
+                    <div class="col-lg-8">
+                        
+                        <ol>
+                        <li><strong><h4>QUESTION 1: How fast do i get a response when i need an artisan?</h4></strong> </li>
+                        <H5>ANSWER: 2-5 minutes, because our are within your selected location.</H5>
+                       
+                     
+                        
+                        </ol>
+                         <hr>
+                        <ol>
+                            <li><strong><h4>QUESTION 2: Can I change my artisan after request?</h4></strong> </li>
+                       <H5>ANSWER :Yes you can before verification, but after verification charges apply.</H5>
+                       
+                        
+                        </ol>
+                          <hr>
+                            
+                        <ol>
+                        <li><strong><h4>QUESTION 3: What if am not satisfied with the service rendered?</h4></strong> </li>
+                       <H5>ANSWER: Every client has a guarantee of 5 working days to return after unsatisfactory work is done</H5>
+                        
+                        
+                        </ol>
+                        <hr>
+                         <br>
+<!--
+                         <div>
+                             <video src="vid/2.mp4" controls style="width: 100%"></video> <br>
+                             
+                         </div>
+-->
+                    </div>
+                    <div class="col-lg-2">
+                        
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- End Portfolio Section -->
+    
+    <!-- Start Portfolio Modal Section -->
+<!--
+        <div class="section-modal modal fade" id="portfolio-modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title text-center">
+                            <h3>Portfolio Details</h3>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        
+                        <div class="col-md-6">
+                            <img src="images/portfolio/img1.jpg" class="img-responsive" alt="..">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="images/portfolio/img1.jpg" class="img-responsive" alt="..">
+                        </div>
+                        
+-->
+<!--                    </div> /.row -->
+<!--
+                </div>                
+            </div>
+        </div>
+-->
+        <!-- End Portfolio Modal Section -->
+    
+    
+    <!-- Start About Us Section -->
+    <section id="about-us" class="about-us-section-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="section-title text-center">
+                             <h2>About Us</h2><br>
+                       <p>Our company is built on core values view our contents below to know more about us</p>
+                        </div>
+                </div>
+            </div>
+            <div class="row">
+                
+                <div class="col-md-4">
+                    <div class="welcome-section text-center">
+                        <img src="images/male%20mech1.jpg" class="img-responsive" alt="philosophy" style="height: 230px;width: 495px">
+                        <h4>Office Philosophy</h4>
+                        <div class="border"></div>
+                        <p>We are here to ease you off mobility problems, because we know mobility is directly proportional to productivity.
+                        We are here to take out of the net of mobility issues and grant you your desired mobility service</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="welcome-section text-center">
+                        <img src="images/shaking%20hands.png" class="img-responsive" alt="commitment" style="height: 230px;width: 495px">
+                        <h4>Office Mission & Vission</h4>
+                        <div class="border"></div>
+                        <p>Our vision is to be one of the top leading artisan networking companies,in Africa by leading technical servicing companies.With substantive investments in;technology, engineering and man-power education, we are propelled to create first class value solution to our clients across board to grant them maximum satisfaction with the work of our artisans.</p>
+                            <h3>Our Mission </h3>
+                            <p>Our mission is built on providing laudable customer satosfaction to our clients through professionalism,integrity and faced paced technological & engineering solutions whilst improving the lives of our partner{artisans} and affecting our socety positively.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="welcome-section text-center">
+                        <img src="images/mech2.jpg"  class="img-responsive" alt=".." style="height: 230px;width: 495px">
+                        <h4>Office Value & Rules</h4>
+                        <div class="border"></div>
+                       <p>We are a body that belives solely in commitment, dilligence, excellence and integrity most importantly fast service.</p>
+                    </div>
+                </div>
+                
+            </div><!-- /.row -->            
+            
+        </div><!-- /.container -->
+    </section>
+    <!-- End About Us Section -->
+
+
+    <!-- Start About Us Section 2 -->
+<!--
+    <div class="about-us-section-2">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-6">
+                    <div class="skill-shortcode">
+-->
+                        
+                        <!-- Progress Bar -->
+<!--
+                        <h3>Ratings of our service judged from diffrent social media</h3>
+                        <div class="skill">
+                            <p>Twitter</p>          
+                            <div class="progress">         
+                                <div class="progress-bar" role="progressbar"  data-percentage="60">
+                                    <span class="progress-bar-span" >85%</span>
+                                    <span class="sr-only">85% Complete</span>
+                                </div>
+                            </div>  
+                        </div>
+                        
+-->
+                        <!-- Progress Bar -->
+<!--
+                        <div class="skill">
+                            <p>Facebook</p>          
+                            <div class="progress">         
+                                <div class="progress-bar" role="progressbar"  data-percentage="95">
+                                    <span class="progress-bar-span" >95%</span>
+                                    <span class="sr-only">95% Complete</span>
+                                </div>
+                            </div>  
+                        </div>
+                        
+-->
+                        <!-- Progress Bar -->
+<!--
+                        <div class="skill">
+                            <p>Instagram</p>          
+                            <div class="progress">         
+                                <div class="progress-bar" role="progressbar"  data-percentage="80">
+                                    <span class="progress-bar-span" >90%</span>
+                                    <span class="sr-only">90% Complete</span>
+                                </div>
+                            </div>  
+                        </div>
+                        
+-->
+                        <!-- Progress Bar -->
+<!--
+                        <div class="skill">
+                            <p>Joomla</p>          
+                            <div class="progress">         
+                                <div class="progress-bar" role="progressbar"  data-percentage="100">
+                                    <span class="progress-bar-span" >100%</span>
+                                    <span class="sr-only">100% Complete</span>
+                                </div>
+                            </div>  
+                        </div>
+                        
+                         Progress Bar 
+                        <div class="skill">
+                            <p>Extension</p>          
+                            <div class="progress">         
+                                <div class="progress-bar" role="progressbar"  data-percentage="70">
+                                    <span class="progress-bar-span" >70%</span>
+                                    <span class="sr-only">70% Complete</span>
+                                </div>
+                            </div>  
+                        </div>
+-->
+                                                            
+<!--
+                    </div>
+                </div>
+-->
+                
+<!--
+                <div class="col-md-6">
+                    <div id="carousel-example-generic" class="carousel slide about-slide" data-ride="carousel">
+-->
+                        <!-- Indicators -->
+<!--
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+-->
+
+                        <!-- Wrapper for slides -->
+<!--
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="images/Female-Nigerian-Auto-Mechanic.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/automobile%20electrician.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/mech2.jpg" alt="">
+                            </div>
+    
+                        </div>
+  
+                    </div>
+                </div>
+-->
+                
+<!--
+            </div>
+        </div>
+    </div>
+-->
+    <!-- Start About Us Section 2 -->
+
+
+    
+
+
+    <!-- Start Feature Section -->
+<!--
+        <section id="service" class="services-section">
+            <div class="container">
+-->
+<!--
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title text-center">
+                            <h3>Our Services</h3>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate</p>
+                        </div>
+                    </div>
+                </div>
+-->
+<!--                <div class="row">-->
+<!--
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="feature-2">
+                            <div class="media">
+                                <div class="pull-left">
+                                    <i class="fa fa-magic"></i>
+                                    <div class="border"></div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Web Design</h4>
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> /.col-md-4 
+-->
+<!--
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="feature-2">
+                            <div class="media">
+                                <div class="pull-left">
+                                    <i class="fa fa-css3"></i>
+                                    <div class="border"></div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">HTML5 & CSS3</h4>
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> /.col-md-4 
+-->
+<!--
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="feature-2">
+                            <div class="media">
+                                <div class="pull-left">
+                                    <i class="fa fa-wordpress"></i>
+                                    <div class="border"></div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Wordpress Theme</h4>
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> /.col-md-4 
+-->
+<!--
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="feature-2">
+                            <div class="media">
+                                <div class="pull-left">
+                                    <i class="fa fa-plug"></i>
+                                    <div class="border"></div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Wordpress Plugin</h4>
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> /.col-md-4 
+-->
+<!--
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="feature-2">
+                            <div class="media">
+                                <div class="pull-left">
+                                    <i class="fa fa-joomla"></i>
+                                    <div class="border"></div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Joomla Template</h4>
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> /.col-md-4 
+-->
+<!--
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="feature-2">
+                            <div class="media">
+                                <div class="pull-left">
+                                    <i class="fa fa-cube"></i>
+                                    <div class="border"></div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Joomla Extension</h4>
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> /.col-md-4 
+-->
+                    
+<!--                </div> /.row -->
+            
+<!--            </div> /.container -->
+<!--        </section>-->
+        <!-- End Feature Section -->
+    
+    
+    
+    <!-- Start Fun Facts Section -->
+<!--
+    <section class="fun-facts">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                      <div class="counter-item">
+                        <i class="fa fa-cloud-upload"></i>
+                        <div class="timer" id="item1" data-to="991" data-speed="5000"></div>
+                        <h5>Files uploaded</h5>                               
+                      </div>
+                    </div>  
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                      <div class="counter-item">
+                        <i class="fa fa-check"></i>
+                        <div class="timer" id="item2" data-to="7394" data-speed="5000"></div>
+                        <h5>Projects completed</h5>                               
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                      <div class="counter-item">
+                        <i class="fa fa-code"></i>
+                        <div class="timer" id="item3" data-to="18745" data-speed="5000"></div>
+                        <h5>Lines of code written</h5>                               
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                      <div class="counter-item">
+                        <i class="fa fa-male"></i>
+                        <div class="timer" id="item4" data-to="8423" data-speed="5000"></div>
+                        <h5>Happy clients</h5>                               
+                      </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+-->
+    <!-- End Fun Facts Section -->
+
+
+
+    <!-- Start Team Member Section -->
+    <section id="team" class="team-member-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="section-title text-center">
+                            <h3>Our Team</h3>
+                            <p>Connect To Our Management Team</p>
+                        </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="team-section">
+                    
+                    
+                                <div class="our-team">
+
+                                    <div class="team-member">
+                                        <img src= "images/team/Achi.jpg" class="img-responsive" alt="" style="width: 495px; height: 300px">
+                                        <div class="team-details">
+                                            <h4>Mr. Achi Onyema</h4>
+                                            <p>Director</p>
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="team-member">
+                                        <img src= "images/team/Liz.jpg" class="img-responsive" alt="" style="width: 495px; height:300px">
+                                        <div class="team-details">
+                                            <h4>Miss Elizabeth Tai</h4>
+                                            <p>Company Secretary</p>
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="team-member">
+                                        <img src= "images/team/Mohammed.jpg" class="img-responsive" alt="" style="width: 495px; height: 300px">
+                                        <div class="team-details">
+                                            <h4>Mr. Muhammad Aminu</h4>
+                                            <p>Head, ICT</p>
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>    
+
+                                  <div class="team-member">
+                                        <img src= "images/team/Obiora.jpg" class="img-responsive" alt="" style="width: 495px; height: 300px">
+                                        <div class="team-details">
+                                            <h4>Engr. Ezenwa Obiora</h4>
+                                            <p>Head, Engineering and Procurement</p>
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                   
+                                    <div class="team-member">
+                                        <img src= "images/team/Onyeka.jpg" class="img-responsive" alt="" style="width: 495px; height: 300px">
+                                        <div class="team-details">
+                                            <h4>Mr. Onyeka Nwanketa</h4>
+                                            <p>Director of Logistics</p>
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="team-member">
+                                        <img src= "images/team/wonU.jpg" class="img-responsive" alt="" style="width: 495px; height:300px">
+                                        <div class="team-details">
+                                            <h4>Miss Wonuola Alonge</h4>
+                                            <p>Head, Customer Care</p>
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="team-member">
+                                        <img src= "images/team/Grace.jpg" class="img-responsive" alt="" style="width: 495px; height: 300px" >
+                                        <div class="team-details">
+                                            <h4>Miss Grace Oladetan</h4>
+                                            <p>Head, Administration and Human Resources</p>
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                    
+                    </div>
+                </div>
+            </div>
+                
+        </div>
+    </section>
+    <!-- End Team Member Section -->
+
+
+
+    <!-- Start Pricing Table Section -->
+<!--
+    <div id="pricing" class="pricing-section">
+        <div class="container">
+-->
+<!--
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-12">
+                        <div class="section-title text-center">
+                            <h3>Our Pricing Plan</h3>
+                            <p class="white-text">Duis aute irure dolor in reprehenderit in voluptate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    
+            <div class="row">
+                        
+                <div class="pricing">
+                        
+                        <div class="col-md-12">
+                            <div class="pricing-table">
+                                <div class="plan-name">
+								    <h3>Free</h3>
+                                </div>
+                                <div class="plan-price">
+                                    <div class="price-value">$49<span>.00</span></div>
+                                    <div class="interval">per month</div>
+                                </div>
+                                <div class="plan-list">
+                                    <ul>
+                                        <li>40 GB Storage</li>
+                                        <li>40GB Transfer</li>
+                                        <li>10 Domains</li>
+                                        <li>20 Projects</li>
+                                        <li>Free installation</li>
+                                    </ul>
+                                </div>
+                                <div class="plan-signup">
+                                    <a href="#" class="btn-system btn-small">Sign Up Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-12">
+                            <div class="pricing-table">
+                                <div class="plan-name">
+								    <h3>Standard</h3>
+                                </div>
+                                <div class="plan-price">
+                                    <div class="price-value">$49<span>.00</span></div>
+                                    <div class="interval">per month</div>
+                                </div>
+                                <div class="plan-list">
+                                    <ul>
+                                        <li>40 GB Storage</li>
+                                        <li>40GB Transfer</li>
+                                        <li>10 Domains</li>
+                                        <li>20 Projects</li>
+                                        <li>Free installation</li>
+                                    </ul>
+                                </div>
+                                <div class="plan-signup">
+                                    <a href="#" class="btn-system btn-small">Sign Up Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="pricing-table">
+                                <div class="plan-name">
+								    <h3>Premium</h3>
+                                </div>
+                                <div class="plan-price">
+                                    <div class="price-value">$49<span>.00</span></div>
+                                    <div class="interval">per month</div>
+                                </div>
+                                <div class="plan-list">
+                                    <ul>
+                                        <li>40 GB Storage</li>
+                                        <li>40GB Transfer</li>
+                                        <li>10 Domains</li>
+                                        <li>20 Projects</li>
+                                        <li>Free installation</li>
+                                    </ul>
+                                </div>
+                                <div class="plan-signup">
+                                    <a href="#" class="btn-system btn-small">Sign Up Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-12">
+                            <div class="pricing-table">
+                                <div class="plan-name">
+								    <h3>Professional</h3>
+                                </div>
+                                <div class="plan-price">
+                                    <div class="price-value">$49<span>.00</span></div>
+                                    <div class="interval">per month</div>
+                                </div>
+                                <div class="plan-list">
+                                    <ul>
+                                        <li>40 GB Storage</li>
+                                        <li>40GB Transfer</li>
+                                        <li>10 Domains</li>
+                                        <li>20 Projects</li>
+                                        <li>Free installation</li>
+                                    </ul>
+                                </div>
+                                <div class="plan-signup">
+                                    <a href="#" class="btn-system btn-small">Sign Up Now</a>
+                                </div>
+-->
+<!--
+                            </div>
+                        </div>
+                    
+                        <div class="col-md-12">
+                            <div class="pricing-table">
+                                <div class="plan-name">
+								    <h3>Premium</h3>
+                                </div>
+                                <div class="plan-price">
+                                    <div class="price-value">$49<span>.00</span></div>
+                                    <div class="interval">per month</div>
+                                </div>
+                                <div class="plan-list">
+                                    <ul>
+                                        <li>40 GB Storage</li>
+                                        <li>40GB Transfer</li>
+                                        <li>10 Domains</li>
+                                        <li>20 Projects</li>
+                                        <li>Free installation</li>
+                                    </ul>
+                                </div>
+                                <div class="plan-signup">
+                                    <a href="#" class="btn-system btn-small">Sign Up Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-12">
+                            <div class="pricing-table">
+                                <div class="plan-name">
+								    <h3>Professional</h3>
+                                </div>
+                                <div class="plan-price">
+                                    <div class="price-value">$49<span>.00</span></div>
+                                    <div class="interval">per month</div>
+                                </div>
+                                <div class="plan-list">
+                                    <ul>
+                                        <li>40 GB Storage</li>
+                                        <li>40GB Transfer</li>
+                                        <li>10 Domains</li>
+                                        <li>20 Projects</li>
+                                        <li>Free installation</li>
+                                    </ul>
+                                </div>
+                                <div class="plan-signup">
+                                    <a href="#" class="btn-system btn-small">Sign Up Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+	
+						
+            </div>
+        </div>
+    </div>
+-->
+    <!-- End Pricing Table Section -->
+    
+    
+    
+    <!-- Start Latest News Section -->
+<!--    <section id="latest-news" class="latest-news-section">-->
+<!--
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title text-center">
+                        <h3>Latest News</h3>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="latest-news">
+                    <div class="col-md-12">
+                        <div class="latest-post">
+                            <img src="images/about-01.jpg" class="img-responsive" alt="">
+                            <h4><a href="#">Standard Post with Image</a></h4>
+                            <div class="post-details">
+                                <span class="date"><strong>31</strong> <br>Dec , 2014</span>
+                                
+                            </div>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="latest-post">
+                            <img src="images/about-02.jpg" class="img-responsive" alt="">
+                            <h4><a href="#">Standard Post with Image</a></h4>
+                            <div class="post-details">
+                                <span class="date"><strong>17</strong> <br>Feb , 2014</span>
+                                
+                            </div>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="latest-post">
+-->
+<!--
+                            <img src="images/about-03.jpg" class="img-responsive" alt="">
+                            <h4><a href="#">Standard Post with Image</a></h4>
+                            <div class="post-details">
+                                <span class="date"><strong>08</strong> <br>Aug , 2014</span>
+                                
+                            </div>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="latest-post">
+                            <img src="images/about-01.jpg" class="img-responsive" alt="">
+                            <h4><a href="#">Standard Post with Image</a></h4>
+                            <div class="post-details">
+                                <span class="date"><strong>08</strong> <br>Aug , 2014</span>
+                                
+                            </div>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="latest-post">
+                            <img src="images/about-02.jpg" class="img-responsive" alt="">
+                            <h4><a href="#">Standard Post with Image</a></h4>
+                            <div class="post-details">
+                                <span class="date"><strong>08</strong> <br>Aug , 2014</span>
+                                
+                            </div>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="latest-post">
+                            <img src="images/about-03.jpg" class="img-responsive" alt="">
+                            <h4><a href="#">Standard Post with Image</a></h4>
+                            <div class="post-details">
+                                <span class="date"><strong>08</strong> <br>Aug , 2014</span>
+                                
+                            </div>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+    <!-- End Latest News Section -->
+
+
+
+    
+    
+    
+    <!-- Start Testimonial Section -->
+<!--
+    <div id="testimonial" class="testimonial-section">
+        <div class="container">
+-->
+            <!-- Start Testimonials Carousel -->
+<!--            <div id="testimonial-carousel" class="testimonials-carousel">-->
+                <!-- Testimonial 1 -->
+<!--
+                <div class="testimonials item">
+                    <div class="testimonial-content">
+                        <img src="images/testimonial/face_1.png" alt="" >
+                        <div class="testimonial-author">
+                            <div class="author">John Doe</div>
+                            <div class="designation">Organization Founder</div>
+                        </div>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque<br> laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+                    </div>
+                </div>
+-->
+                <!-- Testimonial 2 -->
+<!--
+                <div class="testimonials item">
+                    <div class="testimonial-content">
+                        <img src="images/testimonial/face_2.png" alt="" >
+                        <div class="testimonial-author">
+                            <div class="author">Jane Doe</div>
+                            <div class="designation">Lead Developer</div>
+                        </div>
+                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia<br> consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                    </div>
+                </div>
+-->
+                <!-- Testimonial 3 -->
+<!--
+                <div class="testimonials item">
+                    <div class="testimonial-content">
+                        <img src="images/testimonial/face_3.png" alt="" >
+                        <div class="testimonial-author">
+                            <div class="author">John Doe</div>
+                            <div class="designation">Honorable Customer</div>
+                        </div>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit<br> anim laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+-->
+            <!-- End Testimonials Carousel -->
+<!--        </div>-->
+<!--    </div>-->
+    <!-- End Testimonial Section -->
+    
+    
+
+    <!-- Clients Aside -->
+<!--
+    <section id="partner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title text-center">
+                        <h3>Our Honorable Partner</h3>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate</p>
+                    </div>
+                </div>
+            </div>
+-->
+<!--
+            <div class="row">
+                <div class="clients">
+                    
+                    <div class="col-md-12">
+                        <img src="images/logos/themeforest.jpg" class="img-responsive" alt="...">
+                    </div>
+                    
+                    <div class="col-md-12">
+                        <img src="images/logos/creative-market.jpg" class="img-responsive" alt="...">
+                    </div>
+                    
+                    <div class="col-md-12">
+                        <img src="images/logos/designmodo.jpg" class="img-responsive" alt="...">
+                    </div>
+                    
+                    <div class="col-md-12">
+                        <img src="images/logos/creative-market.jpg" class="img-responsive" alt="...">
+                    </div>
+                    
+-->
+<!--
+                    <div class="col-md-12">
+                        <img src="images/logos/microlancer.jpg" class="img-responsive" alt="...">
+                    </div>
+                    
+                    <div class="col-md-12">
+                        <img src="images/logos/themeforest.jpg" class="img-responsive" alt="...">
+                    </div>
+                    
+                    <div class="col-md-12">
+                        <img src="images/logos/microlancer.jpg" class="img-responsive" alt="...">
+                    </div>
+                    
+                    <div class="col-md-12">
+                        <img src="images/logos/designmodo.jpg" class="img-responsive" alt="...">
+                    </div>
+                    
+                    <div class="col-md-12">
+                        <img src="images/logos/creative-market.jpg" class="img-responsive" alt="...">
+                    </div>
+                    
+                    <div class="col-md-12">
+                        <img src="images/logos/designmodo.jpg" class="img-responsive" alt="...">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+    
+    
+    
+    
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title text-center">
+                        <h3>Contact  Us</h3>
+                        <p class="white-text">We will respond as soon as possible, input your correct data below</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-contact-info">
+                        <h4>Contact info</h4>
+                        <ul>
+                            <li><strong>E-mail :</strong> info@e-mech.com</li>
+                            <li><strong>Phone :</strong> +8801-6778776</li>
+                            <li><strong>Mobile :</strong> +8801-45565378</li>
+                            <li><strong>Web :</strong> www.e-mech.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-md-offset-4">
+                    <div class="footer-contact-info">
+                        <h4>Working Hours</h4>
+                        <ul>
+                            <li><strong>Mon-Wed :</strong> 9 am to 5 pm</li>
+                            <li><strong>Thurs-Fri :</strong> 12 pm to 10 pm</li>
+                            <li><strong>Sat :</strong> 9 am to 3 pm</li>
+                            <li><strong>Sunday :</strong> Closed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="style-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-xs-12">
+                        <span class="copyright">Copyright &copy; <a href="#">emech.com</a> 2019</span>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="footer-social text-center">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="footer-link">
+                            <ul class="pull-right">
+                                <li><a href="#">Privacy Policy</a>
+                                </li>
+                                <li><a href="#">Terms of Use</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+    <div id="loader">
+        <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div>
+
+    
+
+    <!-- jQuery Version 2.1.1 -->
+    <script src="js/jquery-2.1.1.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="asset/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/count-to.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.fitvids.js"></script>
+	<script src="js/styleswitcher.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/script.js"></script>
+    
+    
+</body>
+
+</html>
